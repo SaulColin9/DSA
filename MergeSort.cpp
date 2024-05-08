@@ -124,6 +124,7 @@ void mergeDescending(int* arr, int low, int mid, int high) {
 	delete[] right;
 	delete[] aux;
 }
+// B. Counting inversions in an array
 int mergeSortAndCountInversion(int* arr, int low, int high) {
 	int inversions = 0;
 	if (low < high) {
